@@ -1,0 +1,145 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good afternoon", "good evening", "howdy", "what's up"],
+      "responses": [
+        "Hello! Welcome to UniBot — your university helpdesk assistant. How can I help you today?",
+        "Hi there! I'm UniBot, ready to answer all your university questions. What would you like to know?",
+        "Hey! Welcome to the university helpdesk. I'm here to help with admissions, courses, fees, and more!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "see ya", "take care", "later", "exit", "quit"],
+      "responses": [
+        "Goodbye! Have a great day at university! Feel free to come back anytime.",
+        "Take care! Good luck with your studies!",
+        "Bye! Don't hesitate to reach out if you need more help."
+      ]
+    },
+    {
+      "tag": "admission_deadline",
+      "patterns": ["admission deadline", "last date to apply", "when can I apply", "application deadline", "registration date", "when is the last date for admission"],
+      "responses": [
+        "The admission deadline for Fall 2026 is August 15, 2026. For Spring 2027, the deadline is January 10, 2027. We recommend applying early as seats fill up quickly!"
+      ]
+    },
+    {
+      "tag": "admission_requirements",
+      "patterns": ["admission requirements", "eligibility criteria", "what do I need to apply", "requirements for admission", "am I eligible", "who can apply"],
+      "responses": [
+        "To apply, you need: 1) Minimum 60% in Intermediate/FSc or equivalent, 2) Valid CNIC/B-Form, 3) Recent passport-size photographs (4), 4) Original transcripts and certificates, 5) Clear the university entrance test, 6) Interview (for selected programs). International students additionally need IELTS/TOEFL scores."
+      ]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": ["how to apply", "admission process", "application procedure", "steps to apply", "how do I get admission", "what is the admission procedure"],
+      "responses": [
+        "Here's how to apply: Step 1: Visit the university admission portal and create an account. Step 2: Fill out the online application form with personal and academic details. Step 3: Upload required documents (CNIC, transcripts, photos). Step 4: Pay the application fee (Rs. 2,000) via bank challan or online. Step 5: Print your application form and fee challan. Step 6: Submit documents at the admissions office or mail them. Step 7: Appear for the entrance test on the given date. Step 8: Check results on the portal. Step 9: If selected, complete fee payment to confirm your seat!"
+      ]
+    },
+    {
+      "tag": "courses_cs",
+      "patterns": ["CS courses", "computer science courses", "what courses in CS", "subjects in computer science", "CS semester courses", "programming courses"],
+      "responses": [
+        "Computer Science program covers: Semester 1: Programming Fundamentals, Calculus, English, ICT. Semester 2: Object-Oriented Programming, Discrete Math, Pakistan Studies, Physics. Semester 3: Data Structures, Digital Logic Design, Linear Algebra, Software Engineering. Semester 4: Database Systems, Computer Organization, Probability & Statistics, Technical Writing. Semester 5: Operating Systems, Computer Networks, Theory of Automata, Web Development. Semester 6: Artificial Intelligence, Software Project Management, Computer Architecture, Elective I. Semester 7: Information Security, Distributed Systems, Final Year Project I, Elective II. Semester 8: Professional Practices, Final Year Project II, Elective III, Elective IV."
+      ]
+    },
+    {
+      "tag": "courses_it",
+      "patterns": ["IT courses", "information technology courses", "what courses in IT", "IT subjects", "information technology subjects"],
+      "responses": [
+        "The IT program includes: Programming Fundamentals, Web Technologies, Database Management, Network Administration, Cyber Security, Cloud Computing, Mobile App Development, Data Analytics, IT Project Management, System Administration, and Software Quality Assurance. Each semester has a mix of core and elective courses."
+      ]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": ["fee structure", "how much is the fee", "tuition fee", "semester fee", "total cost", "what are the charges", "how much do I pay"],
+      "responses": [
+        "Here's the fee structure per semester: Admission Fee (One-time): Rs. 15,000. Tuition Fee: Rs. 85,000 per semester. Lab/Computer Fee: Rs. 10,000. Library Fee: Rs. 3,000. Examination Fee: Rs. 5,000. Student Activity Fee: Rs. 2,000. Total per semester: approximately Rs. 105,000. Hostel charges (if applicable): Rs. 25,000 per semester. Scholarships are available for merit and need-based students!"
+      ]
+    },
+    {
+      "tag": "fee_payment",
+      "patterns": ["how to pay fee", "fee payment methods", "where to pay fee", "online fee payment", "bank challan", "pay my fee"],
+      "responses": [
+        "You can pay your fee through: 1) Online Student Portal — login and pay via credit/debit card or JazzCash/EasyPaisa. 2) Bank Transfer — deposit at HBL, MCB, or Allied Bank branches using the university challan. 3) University Cashier — pay directly at the finance office (Mon-Fri, 9 AM - 4 PM). 4) ATM/CDM — deposit via designated bank ATMs. Always keep your payment receipt! Fee deadline is the 10th of every month. Late fee: Rs. 500 per week."
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": ["scholarship", "financial aid", "merit scholarship", "need based scholarship", "how to get scholarship", "scholarship criteria"],
+      "responses": [
+        "We offer several scholarships: 1) Merit Scholarship — 100% tuition waiver for GPA 3.8+, 50% for GPA 3.5-3.79. 2) Need-Based Scholarship — up to 75% fee waiver based on financial need (requires income certificate). 3) HEC Scholarships — apply through the Higher Education Commission portal. 4) Alumni Scholarship — for children of university alumni (10% discount). 5) Sports Scholarship — for outstanding athletes (25-50% waiver). 6) Special Talent Scholarship — for achievements in arts, coding competitions, etc. Application: Submit the scholarship form with supporting documents by the 15th of each semester."
+      ]
+    },
+    {
+      "tag": "exam_schedule",
+      "patterns": ["exam schedule", "when are exams", "exam dates", "midterm dates", "final exam", "exam timetable"],
+      "responses": [
+        "The examination schedule is as follows: Mid-Term Exams: 5th-15th of the 8th week of classes. Final-Term Exams: 2nd-20th of the 16th week. Supplementary/Improvement Exams: 2 weeks after result announcement. The detailed date sheet is published 2 weeks before exams on the student portal and notice boards. Practical exams are scheduled separately by each department. Make sure to collect your admit card before exams!"
+      ]
+    },
+    {
+      "tag": "exam_results",
+      "patterns": ["exam results", "where to check results", "how to see my grades", "result announcement", "when will results come", "check my result"],
+      "responses": [
+        "You can check your results by: 1) Logging into the Student Portal at portal.university.edu.pk and navigating to 'Academics > Results'. 2) Mid-term results are usually announced within 2 weeks. 3) Final-term results are announced within 4-6 weeks after exams end. 4) You can also visit your department office for a printed result card. 5) For any discrepancies, contact the Examination Department within 7 days of result announcement. GPA and transcripts are also available on the portal."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": ["library timing", "library hours", "when is library open", "library facilities", "can I borrow books", "digital library"],
+      "responses": [
+        "The University Library is open: Monday-Friday: 8:00 AM - 10:00 PM. Saturday: 9:00 AM - 6:00 PM. Sunday: 12:00 PM - 6:00 PM. Facilities include: 50,000+ physical books, Digital Library with IEEE, ACM, Springer access, 200+ study carrels, Group study rooms (book at the circulation desk), Computer lab with 50 workstations, Printing and photocopying services, 24/7 online catalog access. You can borrow up to 5 books for 14 days. Late fine: Rs. 10 per day per book. Digital resources are accessible via the library portal using your student ID."
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["hostel", "accommodation", "where can I stay", "hostel fee", "hostel facilities", "room sharing", "dormitory"],
+      "responses": [
+        "University Hostel Facilities: Separate hostels for male and female students. Room types: 2-sharing (Rs. 25,000/sem), 3-sharing (Rs. 18,000/sem), 4-sharing (Rs. 15,000/sem). Facilities: Attached bathrooms, Wi-Fi, Common room with TV, Laundry service, Mess/Dining hall (3 meals a day), 24/7 security, Gym, Study rooms. Apply before semester starts — seats are limited! Application forms are available at the hostel office and student affairs department."
+      ]
+    },
+    {
+      "tag": "transport",
+      "patterns": ["transport", "bus service", "university bus", "shuttle service", "bus routes", "transport fee", "how to reach campus"],
+      "responses": [
+        "University Transport Service: Routes covering all major areas of the city. Pick-up points: 15 designated stops across the city. Monthly fee: Rs. 3,500. Semester pass: Rs. 15,000 (saves Rs. 2,000!). Timings: Morning pickups start 7:00 AM, Return buses depart 5:00 PM (Mon-Sat). GPS tracking available via the UniTransport app. To register: Fill the transport form at the Student Affairs office and pay the fee. New route requests can be submitted if 15+ students are from the same area."
+      ]
+    },
+    {
+      "tag": "labs",
+      "patterns": ["computer lab", "lab facilities", "programming lab", "lab timing", "software available", "lab equipment"],
+      "responses": [
+        "Computer Labs: 8 state-of-the-art labs with 500+ systems. Lab 1-2: Programming Labs (C, C++, Java, Python). Lab 3-4: Database & Networking Labs (Oracle, MySQL, Cisco simulators). Lab 5-6: AI & Data Science Labs (TensorFlow, Jupyter, R Studio). Lab 7-8: Software Engineering & Project Labs. All labs have: Core i7 processors, 16GB RAM, SSD storage, High-speed internet, Projectors, Air conditioning. Lab hours: 8:00 AM - 8:00 PM (Mon-Sat). Students can use labs outside class hours by booking through the portal."
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": ["upcoming events", "university events", "what's happening", "society events", "cultural event", "sports event"],
+      "responses": [
+        "Upcoming Events: TechFest 2026 (Annual Technology Festival) — March 15-17, featuring coding competitions, hackathon, project exhibition, and guest lectures from industry experts. Cultural Night — April 5, celebrating diversity with performances and food stalls. Sports Week — April 20-25, including cricket, football, badminton, and e-sports tournaments. Career Fair — May 10, with 50+ companies recruiting. Seminars and workshops happen weekly — check the Events Board near the cafeteria or the university app for the full calendar!"
+      ]
+    },
+    {
+      "tag": "thankyou",
+      "patterns": ["thank you", "thanks", "appreciate it", "thankyou so much", "great help"],
+      "responses": [
+        "You're welcome! I'm glad I could help. Feel free to ask if you have more questions!",
+        "No problem at all! Happy to assist. Good luck with your university journey!",
+        "Anytime! That's what I'm here for. Have a wonderful day!"
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "I'm not sure about that. Could you rephrase your question?",
+        "I don't have information on that topic yet. Please contact the university administration at info@university.edu.pk or call 042-12345678 for accurate information.",
+        "Hmm, I haven't learned about that yet. Try asking about admissions, courses, fees, exams, library, hostel, or campus facilities!"
+      ]
+    }
+  ]
+}
